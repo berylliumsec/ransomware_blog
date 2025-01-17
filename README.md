@@ -1,6 +1,13 @@
 # ransomware_blog
 
-For more information visit [here](www.berylliumsec.com/blog/https/wwwberylliumseccom/blog-page-url/new-post-title)
+![pluto](/Images/ransom.png)
+
+# Acknowledgement
+
+First i would like to thank the All-Mighty God who is the source of all knowledge, without Him, this would not be possible.
+
+
+For more information about this repository visit [here](www.berylliumsec.com/blog/https/wwwberylliumseccom/blog-page-url/new-post-title)
 
 ## Windows
 
