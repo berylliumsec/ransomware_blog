@@ -22,13 +22,7 @@
 #include <stddef.h>  // ensures 'wchar_t' is recognized in C
 #endif
 
-// If you still get complaints about wchar_t, you can also do:
-//   #include <wchar.h>
-// or
-//   typedef unsigned short wchar_t;
 
-// The rest of the code is the same as before, but with the crucial
-// include above so that 'wchar_t' is known and recognized by GCC.
 
 typedef unsigned long       ULONG;
 typedef long                NTSTATUS;
