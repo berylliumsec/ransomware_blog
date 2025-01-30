@@ -7,7 +7,7 @@
 First i would like to thank the All-Mighty God who is the source of all knowledge, without Him, this would not be possible.
 
 
-For more information about this repository visit [here](www.berylliumsec.com/blog/https/wwwberylliumseccom/blog-page-url/new-post-title)
+For more information about this repository visit [here](https://www.berylliumsec.com/blog/how-ransomware-bypasses-edrs-and-antivirus)
 
 ## Windows
 
